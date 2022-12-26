@@ -1,0 +1,36 @@
+.conteiner
+{   max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    border: 2px solid red;
+}
+
+/* დაიწყო ჰედერი */
+
+header 
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    padding-right: 163.7px;
+    padding-left: 152.3px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content:space-between;
+    border: 2px solid black;
+    border-radius: 0 0 30% 30%;
+}
+
+.headerimage
+{
+    /* width: 15.5%;
+    height: 27.27%; */
+    /* როცა % ვუთითებ ზომებს რატომ იდღაბნება  სურათი? */
+
+}
+
+.headericons
+{    display: flex;
+    gap: 55px;
+}
