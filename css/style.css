@@ -3,23 +3,26 @@
     width: 100%;
     margin: 0 auto;
     background-color: #FAFAFA;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    position: relative;
 }
 
 /* დაიწყო ჰედერი */
 
 header 
-{
-    width: 100%;
+{   max-width: inherit;
+    width: inherit;
     background-color: #FFFFFF;
     display: flex;
     padding-right: 163.7px;
     padding-left: 152.3px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; 
     justify-content:space-between;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 0 0 30% 30%;
+    position: fixed;
+    z-index: 2;
 }
 
 .headerimage
@@ -32,5 +35,264 @@ header
 
 .headericons
 {    display: flex;
-    gap: 55px;
+     gap: 55px;
+}
+
+/* ჰედერის გასტილვა დასრულდა */
+/* 
+დაიწყო სექცია1 */
+
+.section1
+{
+    
+width: 90%;
+height: 716px;
+margin: 0 auto;
+position: relative;
+border: solid 2px blue;
+z-index: 1;
+}
+
+.mainimage
+{
+   width: 100%;
+   height: 100%;
+   /* /width: 1193px;
+   height: 716px; */
+   
+
+}
+
+        
+
+
+
+.pictext
+{
+    font-size: 24px;
+    color: #FDF50E;
+    text-align: center;
+    /* font-family: Myriad GEO Mtavruli ეს ფონტ ფემილი ვერსად ვერ ვნახე */
+    width: 354px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+
+    
+
+/* დასრულდა სექცია 1  */
+
+/* დაიწყო სექცია2 */ 
+
+.section2
+{
+width: 90%;
+margin: 0 auto;
+border:  2px solid yellow;
+padding-bottom: 166px;
+
+
+}
+
+.sectiontatle
+{
+    font-size: 28px;
+    color: black;
+    
+    /* font-family: Myriad GEO Mtavruli ეს ფონტ ფემილი ვერსად ვერ ვნახე */
+    margin-top: 145px;
+    margin-bottom: 71px;
+    
+
+}
+
+.cards
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid gold;
+}
+
+.carddiv
+{
+    width: 23.3%;
+    height: 467px;
+    background-color: white;
+    border: 2px solid black;
+    padding-top: 29.7px;
+    padding-left: 32px;
+    padding-bottom: 33px;
+    padding-right: 30px;
+    border-radius: 10%;
+    
+    
+  
+   
+    
+    
+}
+
+.section2image
+{
+    
+    border: 2px solid black;
+    width: 59.5%;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; ამ კოდით რატომ არ გაცენტრა? */
+   
+    
+}
+
+.Sidadivi
+{
+    width: 100%;
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 111.3px;
+    
+}
+
+.grami
+{
+    height: 100%;
+    width: 48%;
+    background-color: #F8F8F8;
+    margin-right: 7px;
+    position: relative;
+    border-radius: 10%;
+
+
+}
+
+.kilogrami
+{
+    height: 100%;
+    width: 48%;
+    background-color:#E7E7E7;
+    position: relative;
+    border-radius: 10%;
+    
+}
+
+.gramtext
+{
+    font-size: 13px;
+    /* font-family: FiraGO; არ იძებნება */
+     /* text-align: center;
+    align-items: center; 
+    ამ კოდებით რატომ არ გაიცენტრა? იღებს მხოლოდ ჰორიზონტალურ ცენტრს, ვერტიკალურად არ იცენტრება */
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+
+.kgtext
+{
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+
+}
+
+.Sidadivi2
+ {   width: 100%;
+     height: 34px;
+     border: 2px solid green;
+     margin-top: 67px;
+     display: flex;
+     justify-content: space-between;
+    
+}
+
+.kalatisdivi
+{
+    height: 100%;
+    width: 34px;
+    background-color: #74B42C;
+    position: relative;
+
+}
+
+.kalata1
+{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+
+.fastext
+{
+    font-size: 24px;
+    color: #F5621F;
+    margin: auto 0;
+    /* align-items: center; ეს კოდი აქაც არ მოქმედებს, ამიტომ მარჯინებით გავცენტრე */
+    
+   
+    
+    
+}
+
+
+.fastext1
+{
+    font-size: 24px;
+    color: black;
+    margin: auto 0;  
+}
+
+/* დასრულდა სექცია2
+დაიწყო ფოტერი */
+
+footer
+{
+    width: 90%;
+    
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    /* ფუტერი სექშენებზე ოდნავ დიდი ხომ არ უნდა იყოს სიგანეში? xd_ში ტექსტი მარჯვნიდან ოდნავ ცდება სექციის საზღვრებს */
+}
+
+.footerdiv
+{
+    width: 15%;
+    border: black 2px solid;
+    padding-bottom: 14px;
+}
+
+.footerheader
+{
+    font-size:  14px;
+    margin-bottom: 41px;
+}
+
+.footertext
+{
+    font-size:12px;
+    line-height: 24px;
+}
+
+.footerimage
+{
+    width: 141.48px;
+    height: 20px;
+
+    /* სანამ სურათს ზომებს პიქსელებში არ გავუწერ იდღაბნება. სავარაუდოდ სიმაღლეში მიყვება გვერდითა დივს. რატომ? */
 }
